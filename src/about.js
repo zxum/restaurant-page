@@ -1,7 +1,7 @@
 function aboutLoad() {
     var content = document.getElementById('content')
     var img = document.createElement('img')
-    img.src = "../assets/chopsticks.png"
+    img.src = "https://raw.githubusercontent.com/zxum/restaurant-page/master/assets/chopsticks.png"
     img.id = "chopsticks"
     content.appendChild(img);
 

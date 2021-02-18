@@ -1,7 +1,7 @@
 function contactLoad() {
     var content = document.getElementById('content')
     var img = document.createElement('img')
-    img.src = "../assets/wave.png"
+    img.src = "https://raw.githubusercontent.com/zxum/restaurant-page/master/assets/wave.png"
     img.id = "wave"
     content.appendChild(img);
 

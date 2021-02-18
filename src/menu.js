@@ -2,10 +2,10 @@ const sushi = (nomen, imgpath, ingredients) => {
     return { nomen, imgpath, ingredients }
 }
 
-var philadelphia = sushi('Philadelphia Roll', '../assets/philadelphia.png', 'Cream cheese, and shrimp, topped with Salmon')
-var california = sushi('California Roll', '../assets/california.png', 'Crab meat, Eel, Cream Cheese, topped with Tobiko')
-var tamago = sushi('Tamago Roll', '../assets/tamago.png', 'Salmon, Cream Cheese, and Panko, wrapped in Tamago')
-var green = sushi('Green Goddess Roll', '../assets/green.png', 'Salmon, kale with Dill sprinkled on top.')
+var philadelphia = sushi('Philadelphia Roll', 'https://raw.githubusercontent.com/zxum/restaurant-page/master/assets/philadelphia.png', 'Cream cheese, and shrimp, topped with Salmon')
+var california = sushi('California Roll', 'https://raw.githubusercontent.com/zxum/restaurant-page/master/assets/california.png', 'Crab meat, Eel, Cream Cheese, topped with Tobiko')
+var tamago = sushi('Tamago Roll', 'https://raw.githubusercontent.com/zxum/restaurant-page/master/assets/tamago.png', 'Salmon, Cream Cheese, and Panko, wrapped in Tamago')
+var green = sushi('Green Goddess Roll', 'https://raw.githubusercontent.com/zxum/restaurant-page/master/assets/green.png', 'Salmon, kale with Dill sprinkled on top.')
 
 var sushiarray = [philadelphia, california, tamago, green]
 
